@@ -4,6 +4,13 @@ import joblib
 import lightgbm as lgb 
 from geopy.distance import geodesic
 
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 model = joblib.load("fraud_detection_model.jb")
 encoder = joblib.load("label_encoder.jb")
 
