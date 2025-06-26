@@ -1,6 +1,6 @@
 # Credit card fraud detection
 
-This project is a machine learning web application built using Streamlit to detect fraudulent credit card transactions. It utilizes real-world imbalanced data and applies powerful models like LightGBM and Random Forest for classification.
+This project utilizes powerful models like LightGBM and Random Forest for classification & was deployed using Streamlit to detect fraudulent credit card transactions. It utilizes real-world imbalanced data and 
 
 🔗 Live App : https://mrtanush18-credit-card-fraud-detection-app-yjwcru.streamlit.app/
 
